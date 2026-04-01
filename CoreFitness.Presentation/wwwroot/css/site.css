@@ -1,0 +1,214 @@
+@import url("/css/fonts.css");
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+*:not(dialog) {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* 4. Increase line-height */
+  line-height: 1.5;
+  /* 5. Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+
+  padding: 1rem;
+}
+
+/* 6. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 7. Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 8. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 9. Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/*
+  10. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-dm-sans: "DM Sans", sans-serif;
+
+  --color-primary-background: #f7f7f7;
+  --color-white: #ffffff;
+  --color-accent: #D6EB31;
+  --color-hero-header: #131020;
+  --color-heading-button-text: #27252F;
+    
+  --background-image-header: url("/images/dark-header-img.svg");
+  --background-image-section: url("/images/dark-section-img.svg");
+}
+
+.header-container {
+  height: 100px;
+  background-color: var(--color-hero-header);
+  background-image: var(--background-image-header);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.nav-container {  
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.5rem 0 1.5rem;
+  align-items: center;
+}
+
+/* ----- Mobile-Navigation ----- */
+
+@media (max-width: 1024px) {
+  .mobile-nav {
+    display: block;
+  }
+  .off-screen-menu {
+    background-color: var(--color-hero-header);
+    background-image: var(--background-image-section);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    height: 100vh;
+    width: 80%;
+  
+    max-width: 450px;
+    position: fixed;
+    top: 1rem;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    transition: .3s ease;
+  }
+  
+  .off-screen-menu.active {
+    right: 0;
+  }
+  
+  .ham-container {
+    padding: 1rem;
+    display: flex;
+    border-radius: 15px;
+  }
+  
+  .ham-menu {
+    height: 50px;
+    width: 40px;
+    margin-left: auto;
+    position: relative;
+  }
+  
+  .ham-menu span {
+    height: 5px;
+    width: 100%;
+    background-color: var(--color-accent);
+    border-radius: 25%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3 ease;
+  }
+  
+  .ham-list {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  .ham-button-link {
+    text-decoration: none;
+    background-color: var(--color-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    border-radius: 999px;
+
+    font-family: var(--font-dm-sans);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--color-heading-button-text);
+    transition: background-color .2s ease-in-out;
+  }
+
+  .ham-button-link:hover {
+    background-color: var(--color-white);
+  }
+
+  .ham-links {
+    color: var(--color-white);
+    font-family: var(--font-dm-sans);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .ham-menu span:nth-child(1) {
+    top: 25%;
+  }
+  
+  .ham-menu span:nth-child(3) {
+    top: 75%;
+  }
+  
+  .ham-menu.active span {
+    background-color: var(--color-accent);
+  }
+  
+  .ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  
+  .ham-menu.active span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}

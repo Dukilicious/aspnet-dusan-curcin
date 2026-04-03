@@ -66,6 +66,8 @@ h1, h2, h3, h4, h5, h6 {
   --color-accent: #D6EB31;
   --color-hero-header: #131020;
   --color-heading-button-text: #27252F;
+
+  --font-size-16: 16px;
     
   --background-image-header: url("/images/dark-header-img.svg");
   --background-image-section: url("/images/dark-section-img.svg");
@@ -89,12 +91,20 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-/* ----- Mobile-Navigation ----- */
+/* ----- MOBILE ----- */
+
+/* -- HEADER -- */
 
 @media (max-width: 1024px) {
+
+  .desktop-nav {
+    display: none;
+  }
+
   .mobile-nav {
     display: block;
   }
+
   .off-screen-menu {
     background-color: var(--color-hero-header);
     background-image: var(--background-image-section);
@@ -104,6 +114,8 @@ h1, h2, h3, h4, h5, h6 {
   
     height: 100vh;
     width: 80%;
+    padding: 2rem 0 2rem 0;
+    gap: 2rem;
   
     max-width: 450px;
     position: fixed;
@@ -112,7 +124,6 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
     transition: .3s ease;
   }
   
@@ -144,24 +155,32 @@ h1, h2, h3, h4, h5, h6 {
     transform: translate(-50%, -50%);
     transition: .3 ease;
   }
-  
-  .ham-list {
+
+  .mobile-account-links {
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+  }
+  
+  .mobile-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     height: 50%;
-    justify-content: space-between;
     list-style: none;
   }
 
-  .ham-button-link {
+  .mobile-sign-in-button {
     text-decoration: none;
     background-color: var(--color-accent);
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 1rem;
     border: none;
     cursor: pointer;
-    width: 160px;
+    width: 200px;
     height: 50px;
     border-radius: 999px;
 
@@ -173,11 +192,15 @@ h1, h2, h3, h4, h5, h6 {
     transition: background-color .2s ease-in-out;
   }
 
-  .ham-button-link:hover {
+  .bi {
+    stroke-width: 1;
+  }
+
+  .sign-in-button:hover {
     background-color: var(--color-white);
   }
 
-  .ham-links {
+  .mobile-nav-links {
     color: var(--color-white);
     font-family: var(--font-dm-sans);
     font-weight: 600;
@@ -210,5 +233,53 @@ h1, h2, h3, h4, h5, h6 {
   .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
+  }
+}
+
+
+
+
+/* ----- DESKTOP ----- */
+
+/* -- HEADER -- */
+
+@media (min-width: 1025px) {
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-family: var(--font-dm-sans);
+    font-weight: 600;
+    font-style: italic;
+    color: var(--color-white);
+    font-size: var(--font-size-16);
+  }
+
+  .sign-in-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    background-color: var(--color-accent);
+    border-radius: 999px;
+    width: 132px;
+    height: 50px;
+
+    text-decoration: none;
+    font-family: var(--font-dm-sans);
+    font-weight: 600;
+    font-style: italic;
+    font-size: var(--font-size-16);
+    color: var(--color-heading-button-text);
   }
 }

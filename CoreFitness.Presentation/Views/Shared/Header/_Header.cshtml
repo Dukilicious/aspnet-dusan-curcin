@@ -5,7 +5,50 @@
             <img src="~/images/logotype.svg" alt="">
         </a>
 
-        <partial class="mobile-nav" name="Header/_MobileNav"/>
+        <div class="link-container desktop-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="" class="nav-link">Fitness Centers</a>
+                </li>
+
+                <li>
+                    <a href="" class="nav-link">Memberships</a>
+                </li>
+
+                <li>
+                    <a href="" class="nav-link">Training</a>
+                </li>
+
+                <li>
+                    <a href="" class="nav-link">Customer Service</a>
+                </li>
+
+                <li>
+                    <a href="" class="nav-link">Store</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="account-link-container desktop-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="" class="nav-link">Become Member</a>
+                </li>
+
+                <li>
+                    <a href="" class="sign-in-button">
+                        Sign In
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobile-nav">
+            <partial name="Header/_MobileNav"/>
+        </div>
 
     </nav>
 </header>

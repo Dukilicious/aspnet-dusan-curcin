@@ -9,7 +9,12 @@
 </head>
 <body>
     
-    <partial name="Header/_Header"/>
+    <header class="header-box">
+        <partial name="Header/_Header"/>
+
+        @if (IsSectionDefined("Hero"))
+            @await RenderSectionAsync("Hero")
+    </header>
 
     <div class="container">
         <main role="main" class="">

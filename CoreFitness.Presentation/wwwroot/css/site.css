@@ -66,11 +66,24 @@ h1, h2, h3, h4, h5, h6 {
   --color-accent: #D6EB31;
   --color-hero-header: #131020;
   --color-heading-button-text: #27252F;
+  --color-linebreak: rgba(214, 235, 49, 0.2);
 
-  --font-size-16: 16px;
+  --font-size-h1: clamp(2rem, 1.8rem + 1vw, 3rem);
+  --font-size-16: 1rem;
     
   --background-image-header: url("/images/dark-header-img.svg");
   --background-image-section: url("/images/dark-section-img.svg");
+  --hero-image: url("/images/hero-image.svg");
+}
+
+
+
+
+/* ----- HEADER ----- */
+
+.header-box {
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 .header-container {
@@ -80,8 +93,9 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 20px;
 }
+
+
 
 .nav-container {  
   height: 100%;
@@ -90,10 +104,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 1.5rem 0 1.5rem;
   align-items: center;
 }
-
-/* ----- MOBILE ----- */
-
-/* -- HEADER -- */
 
 @media (max-width: 1024px) {
 
@@ -236,13 +246,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
-
-
-/* ----- DESKTOP ----- */
-
-/* -- HEADER -- */
-
 @media (min-width: 1025px) {
 
   .mobile-nav {
@@ -282,4 +285,160 @@ h1, h2, h3, h4, h5, h6 {
     font-size: var(--font-size-16);
     color: var(--color-heading-button-text);
   }
+}
+
+
+
+
+
+/* ----- HERO ----- */
+
+.hero-section {
+  background-color: var(--color-hero-header);
+  background-image: var(--background-image-section);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: solid 1px var(--color-linebreak);
+}
+
+@media (min-width: 1025px) {
+  .hero-section {
+    padding: 3rem 2rem 0 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-image-container {
+    display: none;
+  }
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-left-container {
+  max-width: 620px;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1024px) {
+  .hero-left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+  }
+}
+
+.hero-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  background-color: var(--color-heading-button-text);
+  border-radius: 26px;
+  width: 215px;
+  height: 30px;
+}
+
+.hero-dot {
+  width: 5px;
+  height: 5px;
+  background-color: var(--color-accent);
+  border-radius: 50%;
+}
+
+.hero-title {
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.hero-heading {
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-h1);
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-paragraph {
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-16);
+  font-style: italic;
+  font-weight: 600;
+}
+
+.hero-bullet-grid-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  border-bottom: solid 2px var(--color-linebreak);
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .hero-bullet-grid-container {
+    align-items: center;
+  }
+}
+
+.hero-bullet {
+  display: flex;
+  align-items: center;
+  color: var(--color-white);
+  font-family: var(--font-dm-sans);
+  font-size: var(--font-size-16);
+  font-style: italic;
+  font-weight: 600;
+  gap: .5rem;
+}
+
+.checkmark-container {
+  border: solid 2px var(--color-accent);
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkmark {
+  border-bottom: solid 2px var(--color-accent);
+  border-left: solid 2px var(--color-accent);
+  width: 6px;
+  height: 4px;
+  rotate: -45deg;
+}
+
+.hero-button {
+  width: 168px;
+  height: 50px;
+  background-color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 50px;
+  margin: 1rem 0 1rem 0;
+  text-decoration: none;
+
+  font-family: var(--font-dm-sans);
+  font-style: italic;
+  font-weight: 600;
+  font-size: var(--font-size-16);
+  color: var(--color-heading-button-text);
 }

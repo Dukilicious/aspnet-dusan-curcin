@@ -26,6 +26,14 @@
 
 @font-face {
     font-family: Poppins;
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/poppins/Poppins-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
     font-style: normal;
     font-weight: 800;
     font-display: swap;

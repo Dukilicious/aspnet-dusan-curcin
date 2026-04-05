@@ -37,4 +37,9 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/CoreFitness.Presentation.sourcelink.json
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/kheafcu921-{0}-1voy5187bs-1voy5187bs.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/kx5phodxk6-{0}-j9akmgmoww-j9akmgmoww.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-q0hop081wr-q0hop081wr.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-n0ib9n2six-n0ib9n2six.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/xpfnjs6f69-{0}-va1ps6ceho-va1ps6ceho.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/h1dgac9yjv-{0}-u62eei8kk7-u62eei8kk7.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/2v12jxdr8e-{0}-mhfser7nyj-mhfser7nyj.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/j58s1xzfm4-{0}-k2abz9wwyo-k2abz9wwyo.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/lgvozsnbtb-{0}-ocwj2nhpwf-ocwj2nhpwf.gz

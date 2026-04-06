@@ -42,6 +42,6 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/2v12jxdr8e-{0}-mhfser7nyj-mhfser7nyj.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/j58s1xzfm4-{0}-k2abz9wwyo-k2abz9wwyo.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/lgvozsnbtb-{0}-ocwj2nhpwf-ocwj2nhpwf.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-7aa814qwyp-7aa814qwyp.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/9f4np3jj3g-{0}-estq4nxruz-estq4nxruz.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/kkulozf6hf-{0}-cz95f7apg6-cz95f7apg6.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-acc4fay4ho-acc4fay4ho.gz

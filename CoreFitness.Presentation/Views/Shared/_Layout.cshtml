@@ -8,23 +8,27 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
-    
-    <header class="header-box">
-        <partial name="Header/_Header"/>
 
-        @if (IsSectionDefined("Hero"))
-            @await RenderSectionAsync("Hero")
-    </header>
+    <div class="page-container">
 
-    <div class="container">
-        <main role="main" class="">
-            @RenderBody()
-        </main>
+        <header class="header-box">
+            <partial name="Header/_Header"/>
+
+            @if (IsSectionDefined("Hero"))
+                @await RenderSectionAsync("Hero")
+        </header>
+
+        <div class="container">
+            <main role="main" class="">
+                @RenderBody()
+            </main>
+        </div>
+
+        <footer class="">
+
+        </footer>
+
     </div>
-
-    <footer class="">
-
-    </footer>
 
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)

@@ -44,7 +44,11 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/lgvozsnbtb-{0}-ocwj2nhpwf-ocwj2nhpwf.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/9f4np3jj3g-{0}-estq4nxruz-estq4nxruz.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/kkulozf6hf-{0}-cz95f7apg6-cz95f7apg6.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-z2aw8nnfxh-z2aw8nnfxh.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/nz3dugzt01-{0}-er4sqsy8z8-er4sqsy8z8.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/s33kpf584o-{0}-jie0x8sw8b-jie0x8sw8b.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/djkjtxp0af-{0}-p4qi27fog4-p4qi27fog4.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-duitf927ib-duitf927ib.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/9cak8nc8v9-{0}-sds0308tl2-sds0308tl2.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/f5id8sdvc8-{0}-ylw7pdistl-ylw7pdistl.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/x3ut10pinn-{0}-1yk0pax2h1-1yk0pax2h1.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/mqcl18x5qx-{0}-tig1i8n5tf-tig1i8n5tf.gz

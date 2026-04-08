@@ -18,14 +18,15 @@
                 @await RenderSectionAsync("Hero")
         </header>
 
-        <div class="container">
+        <div>
             <main role="main" class="">
                 @RenderBody()
             </main>
         </div>
 
-        <footer class="">
-
+        <footer>
+            @if (IsSectionDefined("Footer"))
+                @await RenderSectionAsync("Footer")
         </footer>
 
     </div>

@@ -46,16 +46,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9QYXJ0bmVycy9fUGFydG5lcnNTZWN0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/Partials/_Footer.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhcnRpYWxzL19Gb290ZXIuY3NodG1s
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Memberships/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyc2hpcHMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/Partials/_Header.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhcnRpYWxzL19IZWFkZXIuY3NodG1s
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/Footer/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Zvb3Rlci9fRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/Partials/_MobileNav.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1BhcnRpYWxzL19Nb2JpbGVOYXYuY3NodG1s
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/Header/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0hlYWRlci9fSGVhZGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/Header/_MobileNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0hlYWRlci9fTW9iaWxlTmF2LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/_Layout.cshtml]

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eubojeBs93c=",
+  "dgSpecHash": "/bQb/kAdc7E=",
   "success": true,
   "projectFilePath": "/Users/duki/Developer/CoreFitness/CoreFitness.Application/CoreFitness.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/duki/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/10.0.5/microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

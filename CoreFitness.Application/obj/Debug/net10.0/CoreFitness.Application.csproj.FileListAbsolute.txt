@@ -1,0 +1,16 @@
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/bin/Debug/net10.0/CoreFitness.Application.deps.json
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/bin/Debug/net10.0/CoreFitness.Application.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/bin/Debug/net10.0/CoreFitness.Application.pdb
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/bin/Debug/net10.0/CoreFitness.Domain.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/bin/Debug/net10.0/CoreFitness.Domain.pdb
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitness.Application.csproj.AssemblyReference.cache
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitness.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitness.Application.AssemblyInfoInputs.cache
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitness.Application.AssemblyInfo.cs
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitness.Application.csproj.CoreCompileInputs.cache
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitness.Application.sourcelink.json
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitn.09438460.Up2Date
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitness.Application.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/refint/CoreFitness.Application.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/CoreFitness.Application.pdb
+/Users/duki/Developer/CoreFitness/CoreFitness.Application/obj/Debug/net10.0/ref/CoreFitness.Application.dll

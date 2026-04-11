@@ -146,3 +146,7 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/CoreFitness.Domain.pdb
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/CoreFitness.Presentation.csproj.AssemblyReference.cache
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/CoreFitn.CABAB491.Up2Date
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Npgsql.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/CoreFitness.Infrastructure.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/CoreFitness.Infrastructure.pdb

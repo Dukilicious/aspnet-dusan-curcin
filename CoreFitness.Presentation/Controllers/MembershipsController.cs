@@ -1,12 +1,19 @@
 using System.Reflection.Metadata.Ecma335;
+using CoreFitness.Application.MembershipPlans;
+using CoreFitness.Presentation.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreFitness.Presentation.Controllers;
 
-public class MembershipsController : Controller
+public class MembershipsController(IMembershipPlanService membershipPlanService) : Controller
 {
-    public IActionResult Index()
+    public async Task <IActionResult> Index()
     {
-        return View();
+        var vm = new MembershipsViewModel
+        {
+            MembershipPlans = await membershipPlanService.GetMembershipsPlansAsync()
+        };
+
+        return View(vm);
     }
 }

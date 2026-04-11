@@ -2715,7 +2715,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 10.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 10.0.5",
       "Microsoft.Extensions.Configuration.Abstractions >= 10.0.5",
-      "Npgsql.EntityFrameworkCore.Postgresql >= 10.0.1"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.1"
     ]
   },
   "packageFolders": {
@@ -2788,7 +2788,7 @@
             "target": "Package",
             "version": "[10.0.5, )"
           },
-          "Npgsql.EntityFrameworkCore.Postgresql": {
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[10.0.1, )"
           }

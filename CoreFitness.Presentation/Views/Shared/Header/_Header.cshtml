@@ -1,3 +1,7 @@
+@{
+    string? current = ViewContext.RouteData.Values["controller"]?.ToString();
+}
+
 <div class="header-container">
     <nav class="nav-container">
 
@@ -12,7 +16,7 @@
                 </li>
 
                 <li>
-                    <a href="" class="nav-link">Memberships</a>
+                    <a asp-controller="Memberships" asp-action="Index" class="nav-link @(current == "Memberships" ? "active" : "")">Memberships</a>
                 </li>
 
                 <li>

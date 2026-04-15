@@ -148,5 +148,5 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/CoreFitness.Infrastructure.dll
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/CoreFitness.Infrastructure.pdb
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/kx5phodxk6-{0}-khb6bn4cto-khb6bn4cto.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-e7eh43vook-e7eh43vook.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/kx5phodxk6-{0}-r94f67yrkt-r94f67yrkt.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-mrtab4zso7-mrtab4zso7.gz

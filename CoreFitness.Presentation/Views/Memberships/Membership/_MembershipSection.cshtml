@@ -1,5 +1,8 @@
 @model IReadOnlyCollection<MembershipPlanDto>
 
+
+@* refactor cards for responsivness *@
+
 <section class="membership-section">
     <h1 class="membership-heading">Our Membership Offers</h1>
     <div class="membership-card-container">
@@ -18,5 +21,7 @@
                 <p>No available plans.</p>
             </div>
         }
+
+        <partial name="Membership/_CallUsCard"/>
     </div>
 </section>

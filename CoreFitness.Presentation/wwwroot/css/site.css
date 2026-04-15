@@ -1178,3 +1178,25 @@ h1, h2, h3, h4, h5, h6 {
   width: 260px;
   height: auto;
 }
+
+.list-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+  font-family: var(--font-dm-sans);
+  font-weight: 400;
+  font-size: var(--font-size-16);
+}
+
+.membership-list-item {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.list-image {
+  color: var(--color-accent);
+}

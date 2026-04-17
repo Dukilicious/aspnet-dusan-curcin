@@ -33,7 +33,6 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/a9og0e6z35-{0}-5uf0cqcz2a-5uf0cqcz2a.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/9dvwb14n3h-{0}-89da2z4m6r-89da2z4m6r.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/9qr80nf9w4-{0}-rtkk4e1yt5-rtkk4e1yt5.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/teqyjl0rv1-{0}-naevsz9enb-naevsz9enb.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/CoreFitness.Presentation.sourcelink.json
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/kheafcu921-{0}-1voy5187bs-1voy5187bs.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/xpfnjs6f69-{0}-va1ps6ceho-va1ps6ceho.gz
@@ -149,5 +148,6 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/CoreFitness.Infrastructure.dll
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/CoreFitness.Infrastructure.pdb
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/kx5phodxk6-{0}-r94f67yrkt-r94f67yrkt.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-q56etdjotz-q56etdjotz.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/opxqfa1hj9-{0}-ewddm8yv65-ewddm8yv65.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-0hefyxhph0-0hefyxhph0.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/teqyjl0rv1-{0}-j2ivyguzeo-j2ivyguzeo.gz

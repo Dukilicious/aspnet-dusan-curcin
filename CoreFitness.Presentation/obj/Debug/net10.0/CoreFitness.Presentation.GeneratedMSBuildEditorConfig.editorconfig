@@ -70,6 +70,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyc2hpcHMvTWVtYmVyc2hpcC9fTWVtYmVyc2hpcFNlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/FAQ/_Accordion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0ZBUS9fQWNjb3JkaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/FAQ/_FaqSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0ZBUS9fRmFxU2VjdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/Footer/_Footer.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Zvb3Rlci9fRm9vdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

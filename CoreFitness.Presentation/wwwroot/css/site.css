@@ -222,13 +222,17 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--color-white);
   }
 
-  .mobile-nav-links {
-    color: var(--color-white);
+  .mobile-nav-link {
+    text-decoration: none;
     font-family: var(--font-dm-sans);
     font-weight: 600;
     font-style: italic;
-    font-size: 24px;
-    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--font-size-20);
+  }
+
+  .mobile-nav-link.active {
+    color: var(--color-accent);
   }
   
   .ham-menu span:nth-child(1) {
@@ -951,6 +955,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-poppins);
   font-weight: 500;
   font-size: var(--font-size-heading);
+  text-align: center;
 }
 
 .membership-card-container {

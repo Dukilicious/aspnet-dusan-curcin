@@ -1,0 +1,51 @@
+<div class="contact-container">
+    <h2 class="contact-heading">Contact Us Today</h2>
+    <p class="contact-paragraph">
+        Ready to begin your fitness journey? Contact GymPro taday and let our
+        expert trainers guide you with the right program and support.
+    </p>
+    
+    <form action="" method="" class="contact-form">
+        <div class="contact-name-container contact-input-container">
+            <div class="contact-input-box">
+                <label for="FirstName" class="contact-label">First Name *</label>
+                <input id="FirstName" class="contact-input" type="text" placeholder="Enter First Name">
+            </div>
+
+            <div class="contact-input-box">
+                <label for="LastName" class="contact-label">Last Name *</label>
+                <input id="LastName" class="contact-input" type="text" placeholder="Enter Last Name">
+            </div>
+        </div>
+
+        <div class="contact-info-container contact-input-container">
+            <div class="contact-input-box">
+                <label for="Email" class="contact-label">Email *</label>
+                <input id="Email" class="contact-input" type="text" placeholder="Enter Email Address">
+            </div>    
+
+            <div class="contact-input-box">
+                <label for="PhoneNumber" class="contact-label">Phone Number</label>
+                <input id="PhoneNumber" class="contact-input" type="text" placeholder="Enter Phone Number">
+            </div>
+        </div>
+
+        <div class="contact-message-container">
+            <label for="Message" class="contact-label">Message *</label>
+            <textarea id="Message" class="contact-textarea" placeholder="Message..."></textarea>
+        </div>
+
+        <div class="contact-button-container">
+            <button class="contact-button" type="submit">
+                Submit Message
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </button>
+        </div>
+    </form>
+
+    <div class="contact-info-box">
+        <partial name="Contact/_ContactInfo"/>
+    </div>
+</div>

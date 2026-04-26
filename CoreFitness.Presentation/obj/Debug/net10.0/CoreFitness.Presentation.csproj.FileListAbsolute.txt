@@ -151,5 +151,5 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/opxqfa1hj9-{0}-ewddm8yv65-ewddm8yv65.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/c20vbprz0t-{0}-dv9g4l038s-dv9g4l038s.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/teqyjl0rv1-{0}-16d396dfkr-16d396dfkr.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-cweq7n902v-cweq7n902v.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/31xytm6hx2-{0}-3vx73svw12-3vx73svw12.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-ez2d48pxtg-ez2d48pxtg.gz

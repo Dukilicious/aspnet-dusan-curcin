@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CoreFitness.Presentation.Controllers;
 
-public class CustomerServiceController : Controller
+public class BecomeMemberController : Controller
 {
     public IActionResult Index()
     {

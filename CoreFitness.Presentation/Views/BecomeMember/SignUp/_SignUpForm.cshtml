@@ -1,8 +1,15 @@
-<form action="">
-    <label for="Email">Email Address *</label>
-    <input id="Email" type="text">
+<form action="" class="sign-up-form-container">
+    <div class="sign-up-input-container">
+        <label for="Email" class="sign-up-label">Email Address *</label>
+        <input id="Email" type="text" class="sign-up-input" placeholder="Enter Email Address">
+    </div>    
 
-    <button type="submit">Continue</button>
+    <button type="submit" class="sign-up-button">
+        Continue
+        <svg xmlns="http://www.w3.org/2000/svg" class="sign-up-chevron" width="18" height="18" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+        </svg>
+    </button>
 </form>
 
-<p>We will send a verification code to your email address.</p>
+<p class="sign-up-form-paragraph">We will send a verification code to your email address.</p>

@@ -152,7 +152,11 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/c20vbprz0t-{0}-dv9g4l038s-dv9g4l038s.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/teqyjl0rv1-{0}-16d396dfkr-16d396dfkr.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/31xytm6hx2-{0}-3vx73svw12-3vx73svw12.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-8sezmix1zj-8sezmix1zj.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/m0y26y28yd-{0}-ztmx85y6hg-ztmx85y6hg.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/p58ld8gylt-{0}-f3dk3l19c8-f3dk3l19c8.gz
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/n7gmpqrgis-{0}-6qnevvs932-6qnevvs932.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-bhnnweyu55-bhnnweyu55.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.UI.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Embedded.dll
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/CoreFitness.Presentation.MvcApplicationPartsAssemblyInfo.cs

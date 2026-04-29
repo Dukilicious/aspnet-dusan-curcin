@@ -1637,7 +1637,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ----- BECOME A MEMBER-SECTION ----- */
 
-
 .sign-up-section {
   display: flex;
   align-items: center;
@@ -1784,6 +1783,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .sign-up-button {
+    margin-top: 1rem;
     position: relative;
   }
 

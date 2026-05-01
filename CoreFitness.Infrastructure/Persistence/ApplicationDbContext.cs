@@ -1,3 +1,4 @@
+using CoreFitness.Domain.AppUsers;
 using CoreFitness.Domain.MembershipPlans;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -12,6 +13,7 @@ public class ApplicationDbContext : IdentityDbContext<IdentityUser>
     {        
     }
     
+    public DbSet<AppUserEntity> AppUsers => Set<AppUserEntity>();
     public DbSet<MembershipPlanEntity> MembershipPlans => Set<MembershipPlanEntity>();
     public DbSet<MembershipPlanFeatureEntity> MembershipPlanFeatures => Set<MembershipPlanFeatureEntity>();
 

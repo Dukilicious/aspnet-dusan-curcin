@@ -1,15 +1,11 @@
-using System.Dynamic;
-
-namespace CoreFitness.Domain.AppUser;
+namespace CoreFitness.Domain.AppUsers;
 
 public class AppUserEntity
 {
     public Guid Id { get; private set; }
     public Guid IdentityUserId { get; private set; }
 
-    public string? FirstName { get; private set; }
-    public string? LastName { get; private set; }
-    public string? PhoneNumber { get; private set; }
+    public AppUserPersonalInfo UserPersonalInfo { get; private set; } = null!;
 
     public DateTime CreatedAt { get; private set; }
     public DateTime UpdatedAt { get; private set; }
@@ -32,8 +28,7 @@ public class AppUserEntity
     // Method for updating personal user information
     public void UpdateUserPersonalInfo(string? firstName, string? lastName, string? phoneNumber)
     {
-        FirstName = firstName;
-        LastName = lastName;
-        PhoneNumber = phoneNumber;
+        UserPersonalInfo = new AppUserPersonalInfo(firstName, lastName, phoneNumber);
+        UpdatedAt = DateTime.UtcNow;
     }
 }

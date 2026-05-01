@@ -1,4 +1,5 @@
 using CoreFitness.Application.MembershipPlans;
+using CoreFitness.Infrastructure.Identity;
 using CoreFitness.Infrastructure.Persistence;
 using CoreFitness.Infrastructure.Persistence.MembershipPlans.Repositories;
 using Microsoft.AspNetCore.Identity;
@@ -17,7 +18,7 @@ public static class DependencyInjection
         services.AddScoped<IMembershipPlanQueries, MembershipPlanRepository>();
 
         // code below: services for identity is AI generated
-        services.AddDefaultIdentity<IdentityUser>(options =>
+        services.AddIdentity<AppUserIdentity, IdentityRole<Guid>>(options =>
         {
             options.SignIn.RequireConfirmedAccount = false;
         })

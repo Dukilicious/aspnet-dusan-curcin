@@ -1,3 +1,5 @@
+@model EnterEmailViewModel
+
 <section class="sign-up-section">
     <div class="sign-up-container">
         <div class="sign-up-heading-container">
@@ -21,6 +23,6 @@
             <span class="sign-up-line"></span>
         </div>
 
-        <partial name="SignUp/_SignUpForm"/>
+        <partial name="SignUp/_SignUpForm" model="Model"/>
     </div>
 </section>

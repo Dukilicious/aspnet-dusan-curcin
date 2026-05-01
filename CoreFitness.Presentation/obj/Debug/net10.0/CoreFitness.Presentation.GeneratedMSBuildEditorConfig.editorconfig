@@ -98,6 +98,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTWVtYmVyc2hpcHMvTWVtYmVyc2hpcC9fTWVtYmVyc2hpcFNlY3Rpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/SetPassword/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2V0UGFzc3dvcmQvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/SetPassword/SetPasswordSection/_SetPasswordForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2V0UGFzc3dvcmQvU2V0UGFzc3dvcmRTZWN0aW9uL19TZXRQYXNzd29yZEZvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/SetPassword/SetPasswordSection/_SetPasswordSection.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2V0UGFzc3dvcmQvU2V0UGFzc3dvcmRTZWN0aW9uL19TZXRQYXNzd29yZFNlY3Rpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/Views/Shared/ExternalAuth/_ExternalAuth.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0V4dGVybmFsQXV0aC9fRXh0ZXJuYWxBdXRoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1785,6 +1785,7 @@ h1, h2, h3, h4, h5, h6 {
   .sign-up-button {
     margin-top: 1rem;
     position: relative;
+    cursor: pointer;
   }
 
   .sign-up-chevron {
@@ -1792,3 +1793,8 @@ h1, h2, h3, h4, h5, h6 {
     left: 95%;
   }
 }
+
+
+
+/* ----- SET PASSWORD-SECTION ----- */
+

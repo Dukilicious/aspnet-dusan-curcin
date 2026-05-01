@@ -1,7 +1,9 @@
-<form action="" class="sign-up-form-container">
+@model EnterEmailViewModel
+
+<form asp-controller="BecomeMember" asp-action="EnterEmail" method="post" class="sign-up-form-container">
     <div class="sign-up-input-container">
-        <label for="Email" class="sign-up-label">Email Address *</label>
-        <input id="Email" type="text" class="sign-up-input" placeholder="Enter Email Address">
+        <label asp-for="Email" class="sign-up-label">Email Address *</label>
+        <input asp-for="Email" class="sign-up-input" placeholder="Enter Email Address">
     </div>    
 
     <button type="submit" class="sign-up-button">

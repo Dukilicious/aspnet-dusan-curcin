@@ -4,6 +4,7 @@
     <div class="sign-up-input-container">
         <label asp-for="Email" class="sign-up-label">Email Address *</label>
         <input asp-for="Email" class="sign-up-input" placeholder="Enter Email Address">
+        <span asp-validation-for="Email" class="email-validation"></span>
     </div>    
 
     <button type="submit" class="sign-up-button">

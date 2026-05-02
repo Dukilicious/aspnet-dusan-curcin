@@ -1747,6 +1747,11 @@ h1, h2, h3, h4, h5, h6 {
   border: solid 2px var(--color-accent);
 }
 
+.email-validation{
+  color: red;
+  font-family: var(--font-dm-sans);
+}
+
 .sign-up-button {
   width: 75%;
   border: none;

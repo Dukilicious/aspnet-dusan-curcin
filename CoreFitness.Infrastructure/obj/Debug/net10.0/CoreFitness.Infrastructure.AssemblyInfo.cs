@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreFitness.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2537e8a068c90793f6ac13c025830a4b37aff809")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1aa1812038953f58a73e28260d8dc372a153a592")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreFitness.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreFitness.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

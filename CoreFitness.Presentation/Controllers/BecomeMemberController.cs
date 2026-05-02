@@ -18,6 +18,7 @@ public class BecomeMemberController : Controller
         if (!ModelState.IsValid)
             return View("Index", model);
 
+        // Code below is AI generated
         return RedirectToAction("Index", "SetPassword", new { email = model.Email});
     }
 }

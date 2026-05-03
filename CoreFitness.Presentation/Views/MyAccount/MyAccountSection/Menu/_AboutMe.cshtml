@@ -1,0 +1,40 @@
+
+
+<div class="about-me-container">
+    <h2 class="about-me-heading">About Me</h2>
+
+    <hr class="about-me-linebreak">
+
+    <form asp-controller="MyAccount" asp-action="UpdateUserInfo" method="post" class="about-me-form">
+        <label for="" class="sign-up-label about-me-label">First Name</label>
+        <input type="text" class="sign-up-input about-me-input" placeholder="Enter First Name">
+        
+        <label for="" class="sign-up-label about-me-label">Last Name</label>
+        <input type="text" class="sign-up-input about-me-input" placeholder="Enter Last Name">
+
+        <label for="" class="sign-up-label about-me-label">Email Address</label>
+        <input type="text" class="sign-up-input about-me-input" value="@(User?.Identity?.Name ?? "")" disabled>
+        <input type="hidden" name="Email" value="@(User?.Identity?.Name ?? "")">
+
+        <label for="" class="sign-up-label about-me-label">Phone Number</label>
+        <input type="text" class="sign-up-input about-me-input" placeholder="Enter Phone Number">
+
+        <hr class="about-me-linebreak about-me-line">
+
+        <label for="" class="sign-up-label">Profile Image</label>
+        <input type="" class="sign-up-input about-me-input" placeholder="Upload Profile Image">
+
+        <div class="about-button-container">
+            <button type="submit" class="about-me-button">
+                Save
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </button>
+        </div>
+    </form>
+</div>
+
+<div class="statistics-container">
+
+</div>

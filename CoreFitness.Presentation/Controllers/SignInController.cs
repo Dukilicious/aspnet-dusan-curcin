@@ -31,7 +31,7 @@ public class SignInController : Controller
 
         if (result.Succeeded)
         {
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("Index", "MyAccount");
         }
         else
         {

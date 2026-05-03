@@ -1,0 +1,66 @@
+@model MyAccountViewModel
+
+<div class="account-page">
+    <aside class="account-menu-container">
+        <img src="~/images/profile-image.svg" alt="User profile image">
+
+        @* Model.ActiveTab is AI generated *@
+        <div class="menu-container">
+            <div class="account-menu">
+                <div class="menu-title">Menu Options</div>
+
+                <div class="menu-options">
+                    <a asp-controller="MyAccount" asp-action="Index" asp-route-tab="about" class="menu-link @(Model.ActiveTab == "about" ? "active" : "")">
+                        About Me
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </a>
+
+                    <a asp-controller="MyAccount" asp-action="Index" asp-route-tab="membership" class="menu-link @(Model.ActiveTab == "membership" ? "active" : "")">
+                        My Membership
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </a>
+
+                    <a asp-controller="MyAccount" asp-action="Index" asp-route-tab="bookings" class="menu-link @(Model.ActiveTab == "bookings" ? "active" : "")">
+                        My Bookings
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </a>
+
+                    <a asp-controller="MyAccount" asp-action="Logout" class="sign-out-link" >
+                        Sign Out
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="remove-account-container">
+            <p class="remove-account-paragraph">If you like to cancel your account click below</p>
+            <a href="" class="remove-account-link">Remove Account</a>
+        </div>
+    </aside>
+
+
+    @* if statement is AI generated *@
+    <div class="account-content">
+        @if (Model.ActiveTab == "about")
+        {
+            <partial name="MyAccountSection/Menu/_AboutMe" />
+        }
+        else if (Model.ActiveTab == "membership")
+        {
+            <partial name="MyAccountSection/Menu/_MyMembership" />
+        }
+        else if (Model.ActiveTab == "bookings")
+        {
+            <partial name="MyAccountSection/Menu/_MyBookings" />
+        }
+    </div>
+</div>

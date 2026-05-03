@@ -1948,3 +1948,173 @@ h1, h2, h3, h4, h5, h6 {
     text-align: start;
   }
 }
+
+
+/* ----- MY ACCOUNT-SECTION ----- */
+
+.my-account-page {
+  display: grid;
+  place-items: center;
+  padding: 4rem 0 3rem 0;
+}
+
+.my-account-section {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.my-account-heading {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--font-size-heading);
+  color: var(--color-heading-button-text);
+  text-align: center;
+}
+
+.account-page {
+  display: flex;
+  gap: 3rem;
+}
+
+.account-menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.menu-container {
+  max-width: 400px;
+  width: 100%;
+}
+
+.account-menu {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-white);
+  width: 100%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.menu-title {
+  padding: 1rem 1.5rem;
+  background-color: var(--color-accent);
+  
+  color: var(--color-heading-button-text);
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: var(--font-size-16);
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+}
+
+.menu-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  border-bottom: solid 2px var(--color-membershipcard-linebreak);
+  padding-bottom: 1rem;
+
+  color: var(--color-heading-button-text);
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: var(--font-size-16);
+}
+
+.sign-out-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+
+  color: var(--color-heading-button-text);
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: var(--font-size-16);
+}
+
+.active {
+  color: var(--color-accent);
+}
+
+.remove-account-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.remove-account-paragraph {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.remove-account-link {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  color: #e50004;
+  text-decoration: none;
+}
+
+.about-me-container {
+  max-width: 860px;
+  width: 100%;
+  background-color: var(--color-white);
+  padding: 3rem;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-me-heading {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: var(--font-size-hero-heading);
+  line-height: 1;
+}
+
+.about-me-linebreak {
+  border: none;
+  height: 2px;
+  background-color: var(--color-membershipcard-linebreak);
+}
+
+.about-me-input {
+  margin: 1rem 0 1.5rem 0
+}
+
+.about-me-line {
+  margin: 2rem 0 1.5rem 0;
+}
+
+.about-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.about-me-button {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .5rem 1.5rem;
+  border-radius: 999px;
+  background-color: var(--color-accent);
+
+  font-family: var(--font-dm-sans);
+  font-weight: 600;
+  font-size: var(--font-size-16);
+  color: var(--color-heading-button-text);
+}

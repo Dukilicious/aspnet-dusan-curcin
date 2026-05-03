@@ -2,11 +2,13 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CoreFitness.Presentation.ViewModels;
 
-public class EnterEmailViewModel
+public class SignInViewModel
 {
     [Required]
     [EmailAddress]
-    // regex is AI generated
-    [RegularExpression(@"^[^@\s]+@[^@\s]+\.[^@\s]+$", ErrorMessage = "Enter a valid email address.")]
     public string Email { get; set; } = "";
+
+    [Required]
+    [DataType(DataType.Password)]
+    public string Password { get; set; } = "";
 }

@@ -159,4 +159,4 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Microsoft.AspNetCore.Identity.UI.dll
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Embedded.dll
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/CoreFitness.Presentation.MvcApplicationPartsAssemblyInfo.cs
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-x76mb0teh9-x76mb0teh9.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-hj2509hkxm-hj2509hkxm.gz

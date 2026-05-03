@@ -4,13 +4,16 @@ namespace CoreFitness.Presentation.Controllers;
 
 public class ErrorController : Controller
 {
+
+    // AI generated
+
     [Route("/Error/{statusCode}")]
     public IActionResult Index(int statusCode)
     {
         ViewData["StatusCode"] = statusCode;
         ViewData["Title"] = statusCode switch
         {
-            404 => "Page Not Found",
+            404 => "Oops! Page Not Found",
             500 => "Internal Server Error",
             _ => "Error"
         };

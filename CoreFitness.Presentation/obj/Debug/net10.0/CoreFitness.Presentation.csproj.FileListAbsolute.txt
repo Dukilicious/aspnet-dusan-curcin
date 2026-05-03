@@ -160,4 +160,5 @@
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/bin/Debug/net10.0/Microsoft.Extensions.FileProviders.Embedded.dll
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/CoreFitness.Presentation.MvcApplicationPartsAssemblyInfo.cs
 /Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/qgr4ieuucj-{0}-kuftrtcswi-kuftrtcswi.gz
-/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-kfs8kp3uxt-kfs8kp3uxt.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/iom4wfl9so-{0}-4k06x9cejo-4k06x9cejo.gz
+/Users/duki/Developer/CoreFitness/CoreFitness.Presentation/obj/Debug/net10.0/compressed/7ogl5qv9xy-{0}-2f5uslue4g-2f5uslue4g.gz

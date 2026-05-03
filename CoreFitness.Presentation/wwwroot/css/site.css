@@ -2063,6 +2063,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   color: #e50004;
   text-decoration: none;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
 }
 
 .about-me-container {
@@ -2112,6 +2115,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: .5rem 1.5rem;
   border-radius: 999px;
   background-color: var(--color-accent);
+  cursor: pointer;
 
   font-family: var(--font-dm-sans);
   font-weight: 600;

@@ -43,7 +43,10 @@
 
         <div class="remove-account-container">
             <p class="remove-account-paragraph">If you like to cancel your account click below</p>
-            <a href="" class="remove-account-link">Remove Account</a>
+            <form asp-controller="MyAccount" asp-action="RemoveAccount" method="post" class="remove-account-form">
+                @Html.AntiForgeryToken()
+                <button type="submit" class="remove-account-link">Remove Account</button>
+            </form>
         </div>
     </aside>
 
@@ -52,7 +55,7 @@
     <div class="account-content">
         @if (Model.ActiveTab == "about")
         {
-            <partial name="MyAccountSection/Menu/_AboutMe" />
+            <partial name="MyAccountSection/Menu/_AboutMe" model="Model.AboutMe" />
         }
         else if (Model.ActiveTab == "membership")
         {

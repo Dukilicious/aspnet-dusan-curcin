@@ -1,28 +1,28 @@
-
+@model AboutMeViewModel
 
 <div class="about-me-container">
     <h2 class="about-me-heading">About Me</h2>
 
     <hr class="about-me-linebreak">
 
-    <form asp-controller="MyAccount" asp-action="UpdateUserInfo" method="post" class="about-me-form">
-        <label for="" class="sign-up-label about-me-label">First Name</label>
-        <input type="text" class="sign-up-input about-me-input" placeholder="Enter First Name">
+    <form asp-controller="AboutMe" asp-action="UpdateUserPersonalInfo" method="post" enctype="multipart/form-data" class="about-me-form">
+        <label asp-for="FirstName" class="sign-up-label about-me-label">First Name</label>
+        <input asp-for="FirstName" type="text" class="sign-up-input about-me-input" placeholder="Enter First Name">
         
-        <label for="" class="sign-up-label about-me-label">Last Name</label>
-        <input type="text" class="sign-up-input about-me-input" placeholder="Enter Last Name">
+        <label asp-for="LastName" class="sign-up-label about-me-label">Last Name</label>
+        <input asp-for="LastName" type="text" class="sign-up-input about-me-input" placeholder="Enter Last Name">
 
         <label for="" class="sign-up-label about-me-label">Email Address</label>
         <input type="text" class="sign-up-input about-me-input" value="@(User?.Identity?.Name ?? "")" disabled>
         <input type="hidden" name="Email" value="@(User?.Identity?.Name ?? "")">
 
-        <label for="" class="sign-up-label about-me-label">Phone Number</label>
-        <input type="text" class="sign-up-input about-me-input" placeholder="Enter Phone Number">
+        <label asp-for="PhoneNumber" class="sign-up-label about-me-label">Phone Number</label>
+        <input asp-for="PhoneNumber" type="text" class="sign-up-input about-me-input" placeholder="Enter Phone Number">
 
         <hr class="about-me-linebreak about-me-line">
 
-        <label for="" class="sign-up-label">Profile Image</label>
-        <input type="" class="sign-up-input about-me-input" placeholder="Upload Profile Image">
+        <label asp-for="ProfileImage" class="sign-up-label">Profile Image</label>
+        <input asp-for="ProfileImage" type="file" class="sign-up-input about-me-input" placeholder="Upload Profile Image">
 
         <div class="about-button-container">
             <button type="submit" class="about-me-button">

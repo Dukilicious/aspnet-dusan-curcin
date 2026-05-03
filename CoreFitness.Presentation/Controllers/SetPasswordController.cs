@@ -1,4 +1,6 @@
+using CoreFitness.Domain.AppUsers;
 using CoreFitness.Infrastructure.Identity;
+using CoreFitness.Infrastructure.Persistence;
 using CoreFitness.Presentation.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -9,11 +11,13 @@ public class SetPasswordController : Controller
 {
     private readonly UserManager<AppUserIdentity> _userManager;
     private readonly SignInManager<AppUserIdentity> _signInManager;
+    private readonly ApplicationDbContext _dbContext;
 
-    public SetPasswordController(UserManager<AppUserIdentity> userManager, SignInManager<AppUserIdentity> signInManager)
+    public SetPasswordController(UserManager<AppUserIdentity> userManager, SignInManager<AppUserIdentity> signInManager, ApplicationDbContext dbContext)
     {
         _userManager = userManager;
         _signInManager = signInManager;
+        _dbContext = dbContext;
     }
 
     public IActionResult Index(string email)
@@ -43,6 +47,10 @@ public class SetPasswordController : Controller
         // if statement below is AI generated
         if (result.Succeeded)
         {
+            var appUserEntity = new AppUserEntity(user.Id);
+            _dbContext.AppUsers.Add(appUserEntity);
+            await _dbContext.SaveChangesAsync();
+
             await _signInManager.SignInAsync(user, isPersistent: false);
                 return RedirectToAction("Index", "MyAccount");
         }
